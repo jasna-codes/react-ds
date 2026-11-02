@@ -1,0 +1,49 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top :40px;
+    margin-bottom:40px;
+    font-family:"raleway",sans-serif;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.details h1{
+    color:white;
+}   
+.details input{
+    background-color: rgb(54,54,54);
+    color: '#ffffff';
+    padding: 16px 25px 16px 25px;
+    border: none;
+    margin-bottom: 10px; 
+    width: 300px; 
+}  
+.details button{
+    background-color: red;
+    color: white;
+    border:none;
+    padding:20px;
+    margin-top: 40px;
+    font-weight: bold;
+}    
+.login-det{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/netflix.jpg");
+    background-size: cover;
+    margin: 0;
+}  
+.side-logo{
+    position: fixed;
+    left:6px;
+    top:-50px;
+    width: 165px;
+    height: auto;
+    opacity: 0.8;
+    z-index: 1000;
+} 
