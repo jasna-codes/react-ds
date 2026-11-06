@@ -1,0 +1,39 @@
+.cardtitle{
+   color: white;
+  font-size: 25px;
+  display: flex;
+  font-family:'releway' , sans-serif;
+}
+
+.header1{
+   display: flex;
+   gap: 12px;
+   height:400px;
+   overflow-x:scroll;
+   scrollbar-width:none
+}
+
+.header1 img{
+   gap: 30px;
+   height: 300px;
+   display: flex;
+   background-color: black;
+   margin-bottom: 30px;
+   border-radius: 10px;
+  
+
+}
+.header1 img:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: transform 0.3s cubic-bezier(0.36, 1.56, 0.64, 1);
+}
+.cardtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
